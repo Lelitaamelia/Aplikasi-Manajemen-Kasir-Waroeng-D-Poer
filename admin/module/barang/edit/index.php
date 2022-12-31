@@ -55,17 +55,6 @@
 					<td><input type="number" class="form-control" value="<?php echo $hasil['harga_jual'];?>" name="jual"></td>
 				</tr>
 				<tr>
-					<td>Satuan Barang</td>
-					<td>
-						<select name="satuan" class="form-control">
-							<option value="<?php echo $hasil['satuan_barang'];?>"><?php echo $hasil['satuan_barang'];?>
-							</option>
-							<option value="#">Pilih Satuan</option>
-							<option value="PCS">PCS</option>
-						</select>
-					</td>
-				</tr>
-				<tr>
 					<td>Stok</td>
 					<td><input type="number" class="form-control" value="<?php echo $hasil['stok'];?>" name="stok"></td>
 				</tr>
